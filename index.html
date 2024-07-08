@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        /* Resetting margin and padding */
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .sticky-header {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0; /* Adjust as needed */
+    z-index: 1000; /* Ensure it is above other elements */
+}
+    </style>
+    
+</head>
+<body class="">
+    
+        <div class="bg-white min-h-screen flex flex-col">
+
+            <header class="sticky-header  w-full  bg-white flex flex-row items-center justify-between px-3  py-2 lg:py-3 backdrop-blur-lg bg-white/90 md:mt-1">
+                <div class="flex items-center">
+                    <img src="../components/images/logo.png" alt="logo" class="w-14 h-14">
+                    <h4 class="flex items-center text-sm text-black font-bold ml-2">Days<br>Coding</h4>
+                </div>
+                <ul class="hidden md:flex px-2 py-1.5 bg-gray-100 rounded-full items-center">
+                    <li class="list-none inline-block mr-1 hover:bg-white py-1 px-3 rounded-full text-gray-800"><a href="#">Intro</a></li>
+                    <li class="list-none inline-block mr-1 hover:bg-white py-1 px-3 rounded-full text-gray-800"><a href="#">Pricing</a></li>
+                    <li class="list-none inline-block mr-1 hover:bg-white py-1 px-3 rounded-full text-gray-800"><a href="#">Features</a></li>
+                    <li class="list-none inline-block hover:bg-white py-1 px-3 rounded-full text-gray-800"><a href="#">Testimonials</a></li>
+                </ul>
+                <button class="text-sm bg-black font-bold text-white rounded-full px-4  h-11 md:px-6 hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Join Community</button>
+            </header>
+            
+
+
+            <main class="px-3">
+
+                <div class=" lg:flex lg:flex-row lg:gap-2">
+
+                    <div class="lg:py-7 lg:pl-5">
+
+                        <div class="flex flex-col items-center lg:items-start  text-center py-12 lg:text-left">
+                            <h1 class="text-6xl font-bold leading-none tracking-tighter md:text-8xl lg:text-8xl "><span class="mr-4 md:text-8xl lg:text-8xl" style="color: rgba(101,197,28,1);">ATTEND LIVE</span> CLASSES EVERY WEEK</h1>
+                            <h2 class="max-w-lg mt-5 px-2 text-lg font-semibold leading-8 text-gray-600 sm:leading-8 sm:text-xl lg:max-w-xl ">
+                                Join founders, freelancers, designers,   FAANG engineers, indie hackers, and more in our 24/7 WhatsApp
+                                Group for less than
+                                a cup of coffee.   
+                            </h2>
+                        </div>
+        
+                        <div class="text-center mt-5 flex flex-col items-center justify-center lg:items-start lg:mt-0">
+                            <button class=" rounded-full text-white font-bold py-6 px-8 " style="background-color:rgba(101,197,28,1)">Join 24/7 WhatsApp + Discord for $5/Month</button>
+                        </div>
+    
+                    </div>
+    
+                    <div class="lg:max-w-xl">
+                        <img src="../components/images/257703538-9009ac7b-b0fb-4083-9f22-193e56c10f1c.png" alt="banner" class="mt-10 md:px-5">
+                    </div>
+
+                </div>
+
+                <div class="">
+                    <div id="contact info" class=" mt-12 flex flex-wrap items-center justify-center gap-y-6 gap-x-16 lg:mt-20 lg:mb-20">
+                        <div class="flex  items-center gap-3">
+                            <img src="../components/images/guide.svg" alt="whatsapp_icon" class="w-9 h-9 shrink-0">
+                            <h3 class="text-lg font-medium text-gray-500">5+ Guides for Free</h3>
+                        </div>
+                        <div class="flex  items-center gap-3">
+                            <img src="../components/images/courses.svg" alt="whatsapp_icon" class="w-9 h-9 shrink-0">
+                            <h3 class="text-lg font-medium text-gray-500">Exculsive Courses & Projects</h3>
+                        </div>
+                        <div class="flex  items-center gap-3">
+                            <img src="../components/images/whatsapp.svg" alt="whatsapp_icon" class="w-9 h-9 shrink-0">
+                            <h3 class="text-lg font-medium text-gray-500">24/7 WhatsApp Support Group</h3>
+                        </div>
+                        <div class="flex  items-center gap-3">
+                            <img src="../components/images/session.svg" alt="whatsapp_icon" class="w-9 h-9 shrink-0">
+                            <h3 class="text-lg font-medium text-gray-500">1:1 Free Session</h3>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="w-full  lg:flex lg:flex-row  lg:px-10 ">
+                    <div class="max-w-lg  flex flex-col items-center justify-center py-8 gap-1 mx-auto text-center  lg:mt-20">
+                        <div class="w-24 h-24 mx-auto group transition-all overflow-hidden rounded-full duration-400 hover:shadow-lg hover:-transalte-y-2 ring-1 ring-gray-100 ">
+                            <img src="../components/images/avatars/avatar-aryan.webp" alt="char" class="object-cover transition-all duration-400 group-hover:scale-125">
+                        </div>
+                        <div class="flex flex-col items-center justify-center">
+                            
+                            <blockquote class="text-center text-lg px-5 py-4 leading-relaxed text-gray-950">
+                                "This community has been a game-changer for my career. The exclusive courses and personalized guidance from expert mentors have helped me take my coding skills to the next level."
+                            </blockquote>   
+                                
+                        </div>
+                        <div class="w-full flex flex-col items-center justify-center">
+                            <p class="font-semibold">Aryan Singh</p>
+                            <p>SWE at Google</p>
+                        </div>
+                        <div class="flex flex-row gap-1">
+                            <img src="../components/images/star.svg" alt="star" class="w-6 h-6">
+                            <img src="../components/images/star.svg" alt="star" class="w-6 h-6">
+                            <img src="../components/images/star.svg" alt="star" class="w-6 h-6">
+                            <img src="../components/images/star.svg" alt="star" class="w-6 h-6">
+                            <img src="../components/images/star.svg" alt="star" class="w-6 h-6">
+                        </div>
+                    </div>
+                    <div class="max-w-lg  flex flex-col items-center justify-center py-8 gap-1 mx-auto lg:mt-20">
+                        <div class="w-24 h-24 mx-auto group transition-all overflow-hidden rounded-full duration-400 hover:shadow-lg hover:-transalte-y-2 ring-1 ring-gray-100">
+                            <img src="../components/images/avatars/avatar-kevin.webp" alt="char" class="object-cover transition-all duration-400 group-hover:scale-125">
+                        </div>
+                        <div class="flex flex-col items-center justify-center">
+                            
+                            <blockquote class="text-center text-lg px-5 py-4 leading-relaxed text-gray-950">
+                                "The exclusive courses and bi-weekly live sessions have been incredibly insightful, and collaborating
+                                on open-source
+                                projects has been a great way to build my portfolio. I highly recommend this community.."
+                            </blockquote>   
+                                
+                        </div>
+                        <div class="w-full flex flex-col items-center justify-center">
+                            <p class="font-semibold">Kevin Smith</p>
+                            <p>SWE at Tesla</p>
+                        </div>
+                        <div class="flex flex-row gap-1">
+                            <img src="../components/images/star.svg" alt="star" class="w-6 h-6">
+                            <img src="../components/images/star.svg" alt="star" class="w-6 h-6">
+                            <img src="../components/images/star.svg" alt="star" class="w-6 h-6">
+                            <img src="../components/images/star.svg" alt="star" class="w-6 h-6">
+                            <img src="../components/images/star.svg" alt="star" class="w-6 h-6">
+                        </div>
+                    </div>
+                    <div class="max-w-lg  flex flex-col items-center justify-center py-8 gap-1 mx-auto lg:mt-20">
+                        <div class="w-24 h-24 mx-auto group transition-all overflow-hidden rounded-full duration-400 hover:shadow-lg hover:-transalte-y-2 ring-1 ring-gray-100">
+                            <img src="../components/images/avatars/avatar-umang.webp" alt="char" class="object-cover transition-all duration-400 group-hover:scale-125">
+                        </div>
+                        <div class="flex flex-col items-center justify-center">
+                            
+                            <blockquote class="text-center text-lg px-5 py-4 leading-relaxed text-gray-950">
+                                "Joining this community was one of the best decisions I've made for my career. The 24/7 WhatsApp group
+                                has been an incredible resource for networking and collaboration. I highly recommend this community"
+                            </blockquote>   
+                                
+                        </div>
+                        <div class="w-full flex flex-col items-center justify-center">
+                            <p class="font-semibold text-base">Umang Chaudhary</p>
+                            <p>SWE at TikTok</p>
+                        </div>
+                        <div class="flex flex-row gap-1">
+                            <img src="../components/images/star.svg" alt="star" class="w-6 h-6">
+                            <img src="../components/images/star.svg" alt="star" class="w-6 h-6">
+                            <img src="../components/images/star.svg" alt="star" class="w-6 h-6">
+                            <img src="../components/images/star.svg" alt="star" class="w-6 h-6">
+                            <img src="../components/images/star.svg" alt="star" class="w-6 h-6">
+                        </div>
+                    </div>
+                </div>
+                    
+                
+
+                <div class="flex flex-col items-center justify-center mt-40">
+                    <div class="flex flex-col items-center justify-center text-center ">
+
+                        <div class="flex flex-col gap-6  ">
+                            <h2 class="text-3xl font-bold text-black tracking-tighter lg:text-5xl">SIMPLE NO-TRICKS PRICING</h2>
+                            <p class="text-center font-normal text-gray-700 text-md text-base leading-relaxed tracking-tight lg:text-xl">Everything you need to grow 10x for less than a coffee.</p>
+                        </div>
+                    </div>
+    
+                    <div class="max-w-xl flex flex-col mt-20 ring-1 rounded-3xl lg:max-w-4xl lg:flex-row  lg:items-center">
+    
+                        <div class="max-w-xl flex flex-col ">
+                            <div class="flex flex-col items-start text-left px-6 ">
+                                <h3 class="text-xl sm:text-2xl font-bold text-black">Premium Elite Subscription</h3>
+                                <p class="text-base leading-7 font-normal text-gray-500 pt-4">Join founders, freelancers, designers, FAANG engineers, indie hackers, and more in our 24/7 WhatsApp Group for less than a cup of coffee.</p>
+                            </div>
+        
+                            <div class="flex px-8 py-3 items-center gap-4">
+                                <p class="flex-none text-sm  font-semibold" style="color: rgba(101,197,28,1);">What's Included</p>
+                                <div class="flex-auto h-px   bg-gray-300"></div>
+                            </div>
+        
+                            <div class="grid grid-cols-1 sm:grid-cols-2 px-8 py-3 gap-5 lg:">
+                                <div class=" flex flex-row gap-1">
+                                    <img src="../components/images/check.svg" alt="" class="w-8 h-8">
+                                    <h2>Expert mentors</h2>
+                                </div>
+                                <div class="flex flex-row gap-1">
+                                    <img src="../components/images/check.svg" alt="" class="w-8 h-8">
+                                    <p>Exculsive Courses</p>
+                                </div>
+                                <div class="flex flex-row gap-1">
+                                    <img src="../components/images/check.svg" alt="" class="w-8 h-8">
+                                    <p>Networking & Collaboration</p>
+                                </div>
+                                <div class="flex flex-row gap-1">
+                                    <img src="../components/images/check.svg" alt="" class="w-8 h-8">
+                                    <p>Career Guidance</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="flex flex-col items-center justify-center mt-10 lg:mt-2.5 p-8 m-2.5 lg:w-full ring-1 rounded-3xl  bg-gray-100 gap-3 w-auto">
+                            <div class="pt-2 font-bold text-gray-600 text-lg">
+                                <p>Less than a cup of coffee</p>
+                            </div>
+                            <div class="flex flex-row items-center mt-2">
+                                <span class="text-5xl font-bold">$5</span>
+                                <strike class="text-4xl font-bold text-gray-400">$1000</strike>
+                            </div>
+                            <div class="mt-3">
+                                <button class="px-5 text-lg text-white p-3 font-semibold transition-all duration-500 bg-blue-500 hover:bg-yellow-300 rounded-full" >Join Community</button>
+                            </div>
+    
+                            <div class="-space-x-2 flex overflow-hidden transition-all duration-200 isolate hover:-space-x-1 mt-3">
+                                <img src="../components/images/avatars/avatar-aryan.webp" alt="logo" class="w-8 h-8 inline-block rounded-full ring-2 ring-white">
+                                <img src="../components/images/avatars/avatar-kevin.webp" alt="logo" class="w-8 h-8 inline-block rounded-full ring-2 ring-white">
+                                <img src="../components/images/avatars/avatar-umang.webp" alt="logo" class="w-8 h-8 inline-block rounded-full ring-2 ring-white">
+                                <img src="../components/images/avatars/avatar-1.png" alt="logo" class="w-8 h-8 inline-block rounded-full ring-2 ring-white">
+                                <img src="../components/images/avatars/avatar-2.png" alt="logo" class="w-8 h-8 inline-block rounded-full ring-2 ring-white">
+                            </div>
+    
+                            <div>
+                                <p class="text-sm">100+ Active Members</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center justify-center lg:mb-40 lg:gap-10">
+                    <div class="max-w-lg lg:max-w-3xl flex flex-col items-center justify-center text-center mt-20 lg:mt-32 ">
+                        <div class="flex flex-col items-center gap-6 p-2">
+                            <h2 class="text-3xl font-bold text-black tracking-tighter md:text-4xl lg:text-5xl">EVERYTHING YOU NEED IN ONE COMMUNITY</h2>
+                            <p class="max-w-xl text-center font-normal text-gray-700 lg:text-xl  leading-relaxed ">Unleashing your digital potential for lasting success</p>
+                        </div>
+                    </div>
+    
+                    <div class="max-w-md lg:max-w-5xl flex flex-col gap-10 lg:flex lg:flex-row mt-8 mb-8 lg:gap-8 ">
+                        <div class="flex flex-col items-center justify-center text-center md:gap-2 group">
+                            <img src="../components/images/illustration-mentors.svg" alt="" class="h-auto w-60 transition-all duration-150 lg:group-hover:-translate-y-3">
+                            <h1 class="font-bold text-xl mt-2 md:text-2xl">EXPERT MENTORS</h1>
+                            <p class="leading-7 mt-2 font-normal text-gray-700 md:text-lg">Get personalized guidance from expert mentors to take your coding skills to the next level.</p>
+                        </div>
+                        <div class="flex flex-col items-center justify-center text-center md:gap-2 group">
+                            <img src="../components/images/illustration-networking.svg" alt="" class="h-auto w-60 transition-all duration-150 lg:group-hover:-translate-y-3">
+                            <h1 class="font-bold text-xl mt-2 md:text-2xl">NETWORKING </h1>
+                            <p class="leading-7 mt-2 font-normal text-gray-700 md:text-lg">Connect with like-minded coders from around the world and collaborate on exciting projects.</p>
+                        </div>
+                        <div class="flex flex-col items-center justify-center text-center md:gap-2 group">
+                            <img src="../components/images/illustration-courses.svg" alt="" class="h-auto w-60 transition-all duration-150 lg:group-hover:-translate-y-3">
+                            <h1 class="font-bold text-xl mt-2 md:text-2xl ">COURSES</h1>
+                            <p class="leading-7 mt-2 font-normal text-gray-700 md:text-lg">Exclusive courses in Full Stack, AI, Blockchain, and more to help you stay ahead of the curve.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-20">
+                    <div class="flex flex-wrap items-center justify-center  gap-x-6 gap-y-8">
+                        <img src="../components/images/company-logos/adobe.svg" alt="" class="w h-7 sm:h-8 lg:h-10">
+                        <img src="../components/images/company-logos/airbnb.svg" alt="" class="w-auto h-7 sm:h-8 lg:h-10">
+                        <img src="../components/images/company-logos/figma.svg" alt="" class="w-auto h-7 sm:h-8 lg:h-10">
+                        <img src="../components/images/company-logos/framer.svg" alt="" class="w-auto h-7 sm:h-8 lg:h-10">
+                        <img src="../components/images/company-logos/google.svg" alt="" class="w-auto h-7 sm:h-8 lg:h-10">
+                        <img src="../components/images/company-logos/dropbox.svg" alt="" class="w-auto h-7 sm:h-8 lg:h-10">
+                    </div>
+
+                </div>
+
+                <div class="grid grid-cols-1 group lg:grid-cols-2 gap-y-12 lg:gap-x-16 lg:items-center lg:max-w-5xl lg:mx-auto mt-28">
+                    <div class="flex flex-col items-center justify-center text-center lg:items-start">
+                        <div class="max-w-md flex flex-col items-center justify-center text-center gap-5 ">
+                            <h1 class="text-3xl font-bold text-center text-black tracking-tighter lg:text-left lg:text-4xl">GAIN A COMPETITIVE EDGE IN JOB MARKET</h1>
+                            <p class="max-w-xl text-center font-normal text-gray-700 text-md leading-relaxed lg:text-left lg:text-xl">Join founders, freelancers, designers, FAANG engineers, indie hackers, and more in our 24/7 WhatsApp Group for less than a cup of coffee.</p>
+                        </div>
+    
+                        
+    
+                        <div class="flex flex-col  items-center justify-center mt-8  gap-5 md:gap-10 lg:items-start" >
+                            <div>
+                                <h2 class="tracking-normal text-green-600 font-bold lg:text-lg" >WHAT YOU'LL GET</h2>
+                            </div>
+                            <div class="max-w-md flex flex-col items-center justify-center sm:flex-row lg:flex-col lg:items-start gap-4">
+                                <div class="flex flex-col lg:flex-row lg:gap-3 items-center justify-center text-center">
+                                    <img src="../components/images/icon-guides-2.svg" alt="logo" class="sm:w-8">
+                                    <p class=" mt-3 tracking-normal text-pretty sm:text-lg text-gray-800">Comprehensive guides, projects, & courses</p>
+                                </div>
+                                <div class="flex flex-col lg:flex-row lg:gap-3 items-center justify-center text-center">
+                                    <img src="../components/images/icon-job.svg" alt="logo" class="sm:w-8">
+                                    <p class=" mt-3 tracking-normal text-pretty sm:text-lg text-gray-800">Exclusive job + internship postings</p>
+                                </div>
+                                <div class="flex flex-col lg:flex-row lg:gap-3 items-center justify-center text-center">
+                                    <img src="../components/images/icon-tips.svg" alt="logo" class="sm:w-8">
+                                    <p class=" mt-3 tracking-normal text-pretty sm:text-lg text-gray-800 ">1:1 Career guidance & mentorship</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="">
+                        <img src="../components/images/illustration-job.svg" alt="" class="h-auto mx-auto transition-all duration-200 w-60 sm:w-full sm:max-w-xs lg:max-w-none group-hover:rotate-6">
+                    </div>
+                </div>
+            </main>
+
+
+
+
+            <footer class="w-full relative flex flex-col items-center gap-6 px-3 mt-20 mb-12 md:flex-row md:justify-between">
+                <div class="flex items-center">
+                    <img src="../components/images/logo.png" alt="logo" class="w-14 h-14">
+                    <h4 class="w-20 flex  items-center text-sm text-black font-bold ">Days<br>Coding</h4>
+                </div>
+
+                <div class="relative flex items-center justify-center gap-3 md:order-3 sm:justify-end">
+                    <img src="../components/images/icon-instagram.svg" alt="logo" class="p-2 transition-all duration-200 rounded-full  hover:bg-green-300 ring-1 ring-transparent  hover:ring-green-400 ">
+                    <img src="../components/images/icon-twitter.svg" alt="logo" class="p-2 transition-all duration-200 rounded-full hover:bg-green-300 ring-1 ring-transparent ring-inset hover:ring-green-400 ">
+                    <img src="../components/images/icon-linkedin.svg" alt="logo" class="p-2 transition-all duration-200 rounded-2xl hover:bg-green-300 ring-1 ring-transparent  hover:ring-green-400 ">
+                    <img src="../components/images/icon-youtube.svg" alt="logo" class="p-2 transition-all duration-200 rounded-full hover:bg-green-300 ring-1 ring-transparent ring-inset hover:ring-green-400 ">
+                </div>
+
+                <div>
+                    <p class="flex items-center justify-center md:absolute md:order-2 md:inset-0 text-gray-700 font-light">2024 @ DSA revision</p>
+                </div>
+            </footer>
+
+        </div>    
+            
+</body>
+</html>
+
+
+
+
+
+
+
+
